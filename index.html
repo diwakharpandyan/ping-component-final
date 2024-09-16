@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body class="font-['Libre_Franklin'] min-h-screen">
+    <main
+      class="container max-w-[768px] mx-auto py-20 px-7 grid gap-4 grid-cols-1 grid-rows-[1fr_1fr_.25fr] place-items-center"
+    >
+      <div class="main-text grid place-items-center">
+        <img class="mb-8 h-5 lg:h-7" src="./images/logo.svg" alt="logo" />
+        <h1 class="text-2xl lg:text-4xl m-4 text-[#969696]">
+          We are launching <strong class="text-black lg:text-4xl">soon!</strong>
+        </h1>
+        <small class="font-medium lg:text-base text-gray-700"
+          >Subscribe and get notified</small
+        >
+        <form id="form" class="w-full">
+          <input
+            class="block w-full lg:inline-block mt-8 border-solid border-[1px] text-xs outline-none border-[#d0d0d0] rounded-full px-6 py-3 placeholder-[#c2d3ff]"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email address"
+          />
+          <p
+            class="error-message italic text-[#ff5263] text-center text-xs mt-1 mx-auto"
+          ></p>
+          <button
+            class="block hover:cursor-pointer hover:bg-blue-400 shadow-lg w-full text-white rounded-full px-6 py-3 text-xs font-semibold bg-[#4f7df3] mt-3"
+            type="submit"
+          >
+            Notify Me
+          </button>
+        </form>
+      </div>
+      <div class="image-container">
+        <img src="./images/illustration-dashboard.png" alt="illustration" />
+      </div>
+      <footer class="mt-4">
+        <div
+          class="social-media-icons-container mb-4 flex justify-center items-center"
+        >
+          <a href="#" target="_blank"
+            ><div
+              class="fb hover:bg-blue-600 group social-media-icon rounded-full border-[1px] border-solid flex items-center justify-center h-8 w-8 mr-4"
+            >
+              <i
+                class="fa-brands fa-facebook-f text-blue-600 group-hover:text-white"
+              ></i></div
+          ></a>
+          <a href="#" target="_blank"
+            ><div
+              class="twtr hover:bg-blue-600 group social-media-icon rounded-full border-[1px] border-solid flex items-center justify-center h-8 w-8 mr-4"
+            >
+              <i
+                class="fa-brands fa-twitter text-blue-600 group-hover:text-white"
+              ></i></div
+          ></a>
+          <a href="#" target="_blank"
+            ><div
+              class="insta hover:bg-blue-600 group social-media-icon rounded-full border-[1px] border-solid flex items-center justify-center h-8 w-8 mr-4"
+            >
+              <i
+                class="fa-brands fa-instagram text-blue-600 group-hover:text-white"
+              ></i></div
+          ></a>
+        </div>
+        <small class="text-gray-400"
+          >&copy; Copyright Ping. All rights reserved.</small
+        >
+      </footer>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/7d75f18a8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
